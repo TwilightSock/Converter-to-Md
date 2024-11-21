@@ -36,8 +36,8 @@ def convert_files_to_md(inputFiles, inputFolderPath, outputFolderPath):
 filesToIgnore = [".DS_Store", ".txt", ".pdf"]
 inputFolderName = "input"
 outputFolderName = "output"
-inputFolderPath  = create_folder(os.path.abspath(__file__), inputFolderName)
-outputFolderPath = create_folder(os.path.abspath(__file__), outputFolderName)
+inputFolderPath  = create_folder(os.getcwd(), inputFolderName)
+outputFolderPath = create_folder(os.getcwd(), outputFolderName)
 
 inputFiles = get_files_paths(inputFolderPath,filesToIgnore)
 
