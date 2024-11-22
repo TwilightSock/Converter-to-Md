@@ -7,3 +7,5 @@
 6. create Service account email
 7. go to your google drive account and add this email to list of persons which can view folder content
 8. Run script
+
+you need to create folder with name "docs" on your google drive and store all documents in this folder. otherwise script will not work
