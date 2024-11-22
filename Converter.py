@@ -79,7 +79,7 @@ def download_docx_files(service, folder_id, download_path):
     print("Download complete.")
 
 if __name__ == '__main__':
-    SERVICE_ACCOUNT_FILE =  os.path.expanduser("~") + "/Downloads/"+"quiet-antler-442510-n5-895e32a3d7d7.json"
+    SERVICE_ACCOUNT_FILE =  os.path.expanduser("~") + "/Downloads/"+"quiet-antler-442510-n5-895e32a3d7d7.json" # REPLACE "quiet-antler..." WITH YOUR FILE 
     SCOPES = ['https://www.googleapis.com/auth/drive.readonly']
     FOLDER_NAME = 'docs'
     filesToIgnore = [".DS_Store", ".txt", ".pdf"]
